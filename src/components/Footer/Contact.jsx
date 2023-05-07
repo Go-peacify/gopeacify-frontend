@@ -17,7 +17,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <form className=" flex flex-col py-8 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+        <form className=" flex flex-col py-8 space-y-6 md:px-6 ng-untouched ng-pristine ng-valid">
           <label className="flex">
             <input
               type="text"
