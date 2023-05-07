@@ -4,20 +4,20 @@ import { contact } from "../../assets";
 const Contact = () => {
   return (
     <section className="py-4 pt-14 pb-14 text-white">
-      <div className="grid max-w-6xl grid-cols-1  rounded-3xl mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-[#289C90]">
+      <div className="grid max-w-6xl grid-cols-1  rounded-3xl mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-[#B3F0E8]">
         <div className="py-6 md:py-0 md:px-6">
-          <h3 className="bg-#E4F4E8 mt-14">Need a doctor consulting?</h3>
-          <h1 className="text-4xl font-bold">Request a call back Today Now</h1>
-          <p className="pt-2 pb-4">Fill in the form to start a conversation</p>
+          <h3 className="font-medium opacity-80 text-[#464646] mt-14">Need a doctor consulting?</h3>
+          <h1 className="text-4xl font-bold text-[#464646] opacity-90">Request a call back Today Now</h1>
+          <p className="pt-2 pb-4 text-[#464646] opacity-90">Talk to your mental health professional.</p>
           <div className="space-y-4 flex flex-row">
-            <img className="h-[80%]" src={contact} alt="contact"></img>
-            <p className="ml-2">
+            <img className="h-[80%] " src={contact} alt="contact"></img>
+            <p className="ml-2 text-[#464646] font-medium opacity-90 mt-[-1px]">
               {" "}
               Our Doctors are waiting<br></br>for your service.
             </p>
           </div>
         </div>
-        <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+        <form className=" flex flex-col py-8 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
           <label className="flex">
             <input
               type="text"
@@ -42,9 +42,9 @@ const Contact = () => {
           </label>
           <button
             type="button"
-            className="text-white w-56 px-2 py-3 -mt-5 mb-5 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-btn dark:text-gray-900 focus:ring-black hover:ring-black"
+            className="text-white w-56 px-1 py-2 -mt-5 mb-5 text-lg rounded-full focus:ring hover:ring focus:ring-opacity-75 bg-btn dark:text-gray-900 focus:ring-black hover:ring-black"
           >
-            Request Now
+            Get Start
           </button>
         </form>
       </div>
