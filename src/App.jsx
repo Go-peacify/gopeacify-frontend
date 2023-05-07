@@ -27,17 +27,18 @@ function App() {
         <Route path="/doctor" element={<Experts />} />
         <Route path="/internship" element={<Intern />} />
         <Route path="/issues" element={<IssuePage />} />
-        <Route path="/yoga" element={<Meditation />} />
         <Route path="/patientsignin" element={<Patient_SignIn />} />
         <Route path="/doctorsignin" element={<Doctor_SignIn />} />
         <Route path="/patientlogin" element={<Patient_LogIn />} />
         <Route path="/doctorlogin" element={<Doctor_LogIn />} />
         <Route path="/alldoctor" element={<AllDoctor />} />
+        <Route path="/blog" element={<Blog />} />
+        
+        <Route path="/yoga" element={<Meditation />} />
         <Route path="/sadhna" element={<Sadhna />} />
         <Route path="/brainExercise" element={<BrainExercise />} />
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
-        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </BrowserRouter>
