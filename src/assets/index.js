@@ -300,3 +300,12 @@ import Med2 from "./Med/MeditationPoster.jpg";
 export { Med1 };
 
 export { Med2 };
+
+
+// Testimonial home page
+
+import TestimonialLeftBlob from './Testinomial/testimonial-leftBlob.svg';
+import TestimonialRightBlob from './Testinomial/testimonial-rightBlob.svg';
+import Star from './Testinomial/star.svg';
+
+export {TestimonialLeftBlob, TestimonialRightBlob, Star}; 

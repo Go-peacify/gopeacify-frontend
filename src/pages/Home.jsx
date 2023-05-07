@@ -27,7 +27,7 @@ const Home = () => {
       <Stats />
       <Testinomial />
       <Investors />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Contact />
     </>
   );
