@@ -36,6 +36,11 @@ import {
   OCD,
   Stress,
   Facing,
+  EasyAccess, 
+  Effective, 
+  Safe,
+  Secure, 
+  Community,
 } from "../assets";
 const Issue = () => {
   const data = [
@@ -71,6 +76,48 @@ const Issue = () => {
             </button>
           </div>
         </div>
+      </div>
+
+      <section id="issues" className="p-12 flex justify-center flex-col items-center">
+        <p className="text-center font-bold text-[4rem] w-[80%]"><span className="text-[#2FC4B1]">Peacify</span> mental health experts specialise in <span className="text-[#2FC4B1]">treating a variety</span> of conditions</p>
+        <div className="flex justify-center flex-wrap gap-4 mt-10 px-12">
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+              Anxiety
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          Personality disorders
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          Depression
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          Eating disorders
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          POCD
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          Trauma
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          OCD
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          ADHD
+          </div>    
+          <div className="text-lg flex justify-center font-medium rounded-full bg-[#B3F0E8] px-12 py-4">
+          Stress
+          </div>    
+        </div>
+
+        
+      </section>
+      <div className="w-full bg-[#F0FCFB] flex gap-20 justify-center py-4">
+            <img className="h-[100px] object-cover"  src={Safe} alt="" />
+            <img className="h-[100px] object-cover"  src={Secure} alt="" />
+            <img className="h-[100px] object-cover" src={Effective} alt="" />
+            <img className="h-[100px] object-cover"  src={EasyAccess} alt="" />
+            <img className="h-[100px] object-cover"  src={Community} alt="" />
       </div>
       </>
   );

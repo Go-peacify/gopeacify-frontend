@@ -309,3 +309,15 @@ import TestimonialRightBlob from './Testinomial/testimonial-rightBlob.svg';
 import Star from './Testinomial/star.svg';
 
 export {TestimonialLeftBlob, TestimonialRightBlob, Star}; 
+
+
+// Features home page
+
+import Safe from './features/safe.svg'; 
+import Secure from './features/secure.svg'; 
+import Community from './features/community.svg'; 
+import EasyAccess from './features/easyAccess.svg'; 
+import Effective from './features/effective.svg'; 
+
+
+export {Safe, Secure, Community, EasyAccess, Effective};
