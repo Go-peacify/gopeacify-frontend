@@ -12,33 +12,7 @@ const Sadhna = () => {
   ];
   return (
     <>
-      {/* <div className='text-black flex flex-col items-center justify-center'>
-        
-        <div className='w-full flex ml-0 md:ml-20'>
-          
-          <div className='lg:w-[45%] md:w-[50%] lg:p-16 md:p-6 w-[80%] mx-auto md:mx-0 my-24 md:my-0 gap-8 md:gap-0 flex flex-col justify-around'>
-            <h2 className='text-5xl text-[#3B6377] font-bold sm:text-[4em] text-[4em] '>
-              <span className='bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]  bg-clip-text text-transparent font-semibold'>Sadhna</span> is the best way to improve mental health.</h2>
-            <p className='my-5'>Many people are seeing changes after doing meditation on a regular basis
-            Lorem nullam sed lacus, arcu. Dui proin mauris neque vulputate morbi quis et semper. Dui tortor risus amet congue hendrerit integer.
-            </p>
-            <div className='flex gap-6'>
-              <button className='bg-[#008080] rounded-full text-white p-3'>lorem asdfgh</button>
-              <button className='bg-white text-black border-gray-400 p-3'>Ipsum lkjhgf</button>
-            </div>
-          </div>
-
-          <div className='lg:w-[55%] md:w-[50%] relative md:block hidden  '>
-            <div className='h-[80vh]'>
-              <img src={EllipseSadhna} className='w-full h-full object-cover' />
-            </div>
-            <img src={Mind} className='absolute lg:top-24 md:top-[7em] z-20 left-[5em]' />
-          </div>
-
-        </div> */}
-
       <div className="grid grid-cols-2 px-16 py-6 mt-14 mb-12">
-        {/* <div> */}
         <div className='md:mx-0 my-24 md:my-0 gap-8 md:gap-0 flex flex-col justify-around'>
           <h2 className='text-5xl text-[#3B6377] font-bold sm:text-[4em] text-[4em] w-[70%]'>
             <span className='bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]  bg-clip-text text-transparent font-bold'>Sadhna</span> is the best way to improve mental health.</h2>
@@ -47,10 +21,8 @@ const Sadhna = () => {
           </p>
           <div className='flex gap-6'>
             <button className='bg-[#008080] rounded-full text-white px-5 py-3'>Get Started</button>
-            {/* <button className='bg-white text-black border-gray-400 p-3'>Ipsum lkjhgf</button> */}
           </div>
         </div>
-        {/* </div> */}
         <div>
           <div className='flex justify-end'>
             <img src={Mind} className='' />
