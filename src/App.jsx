@@ -23,7 +23,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/Peacify" element={<Home />} /> */}
+        <Route path="/gopeacify-frontend" element={<Home />} />
         <Route path="/doctor" element={<Experts />} />
         <Route path="/internship" element={<Intern />} />
         <Route path="/issues" element={<IssuePage />} />
