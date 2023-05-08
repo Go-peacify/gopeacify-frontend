@@ -321,3 +321,6 @@ import Effective from './features/effective.svg';
 
 
 export {Safe, Secure, Community, EasyAccess, Effective};
+
+import downarrow from "./downarrow.svg"
+export {downarrow};

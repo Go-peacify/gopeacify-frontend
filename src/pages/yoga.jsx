@@ -37,8 +37,8 @@ const Meditation = () => {
                     <p className='text-2xl md:w-[50%] sm:w-[70%] w-full px-4'>Take back control of your mental health. Train your brain with pleasure, develop memory, attention and thinking with</p>
                     {/* <button className='text-white  rounded-full bg-lightcyan font-bold text-lg py-4 mt-4'>Try Now</button> */}
                 </div>
-                <div className='absolute md:flex hidden right-0 -top-24'>
-                    <img src={LandingGroup} className='w-full' />
+                <div className='absolute md:flex hidden right-0 top-0'>
+                    <img src={LandingGroup} className='w-full' /> 
                 </div>
             </div>
 
