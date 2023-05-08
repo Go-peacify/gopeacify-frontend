@@ -30,14 +30,14 @@ const Meditation = () => {
 
             <div className='relative my-16 h-[650px]'>
                 <div className='flex flex-col ml-20  gap-6 leading-snug' >
-                <div className='w-[20%] h-full absolute block bg-gradient-to-r from-[#F7EDBA] ...  h-72 left-0 z-[-1] rounded-r-full'>
+                <div className='w-[20%] h-full absolute block bg-gradient-to-r from-[#F7EDBA] ...   left-0 z-[-1] rounded-r-full'>
                     </div>
                     <h1 className='text-[#3B6377] font-bold sm:text-[6em] text-[4em]'>Your Mental</h1>
                     <h1 className='text-[#3B6377] font-bold sm:text-[6em] text-[4em]'>Health Matters</h1>
                     <p className='text-2xl md:w-[50%] sm:w-[70%] w-full px-4'>Take back control of your mental health. Train your brain with pleasure, develop memory, attention and thinking with</p>
                     {/* <button className='text-white  rounded-full bg-lightcyan font-bold text-lg py-4 mt-4'>Try Now</button> */}
                 </div>
-                <div className='absolute sm:flex hidden right-0 -top-24'>
+                <div className='absolute md:flex hidden right-0 -top-24'>
                     <img src={LandingGroup} className='w-full' />
                 </div>
             </div>
