@@ -12,23 +12,23 @@ const Sadhna = () => {
   ];
   return (
     <>
-      <div className="grid grid-cols-2 px-16 py-6 mt-14 mb-12">
-        <div className='md:mx-0 my-24 md:my-0 gap-8 md:gap-0 flex flex-col justify-around'>
-          <h2 className='text-5xl text-[#3B6377] font-bold sm:text-[4em] text-[4em] w-[70%]'>
-            <span className='bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]  bg-clip-text text-transparent font-bold'>Sadhna</span> is the best way to improve mental health.</h2>
-          <p className='my-5'>Many people are seeing changes after doing meditation on a regular basis
-            Lorem nullam sed lacus, arcu. Dui proin mauris neque vulputate morbi quis et semper. Dui tortor risus amet congue hendrerit integer.
-          </p>
-          <div className='flex gap-6'>
-            <button className='bg-[#008080] rounded-full text-white px-5 py-3'>Get Started</button>
+    <div className='relative my-16 m-auto px-8 py-8 h-[600px]'>
+            <div className='flex flex-col ml-20  gap-6 leading-snug' >
+              <h2 className='text-5xl text-[#3B6377] font-bold w-[80%] ms:w-[50%] mt-8 mb-8 sm:text-[4em] text-[4em]'>
+                <span className='bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]  bg-clip-text text-transparent font-bold '>Sadhna</span> is the best way to improve mental health.</h2>
+              <p className='md:w-[50%] sm:w-[70%] w-full '>Many people are seeing changes after doing meditation on a regular basis
+                Lorem nullam sed lacus, arcu. Dui proin mauris neque vulputate morbi quis et semper. Dui tortor risus amet congue hendrerit integer.
+              </p>
+              <div className='flex mt-12'>
+                <button className='bg-[#008080] rounded-full text-white px-5 py-3'>Get Started</button>
+              </div> 
+                
+            </div>
+            <div className='absolute ms:flex hidden right-0 top-14 '>
+                <img src={Mind} className='w-5/6' />
+            </div>
           </div>
-        </div>
-        <div>
-          <div className='flex justify-end'>
-            <img src={Mind} className='' />
-          </div>
-        </div>
-      </div>
+
 
 
 
