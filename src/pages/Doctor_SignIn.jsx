@@ -35,35 +35,34 @@ export default function Doctor_SignIn() {
   return (
     
     <div>
-   
-    <div className=' md:h-[650px] md:bg-btn'>
-        <img src={signin} atl="signin" className='hidden md:block xl:w-[30%] md:w-[30%] sm:w-[30%] lg:w-[30%] md:h-[600px] sm:h-[600px] lg:h-[600px] md:float-left md:ml-36 md:rounded-r-3xl'/>
-        <div className=' w-[70%] h-[650px] md:rounded-l-3xl md:mr-0 md:ml-auto bg-white '>
-            <div className='ml-0 xs:w-[300px] xs:bg-black xs:ml-10 xs:mr-auto xs: md:w-[80%]  md:mr-20 md:ml-auto  '>
-                <div className='py-10'>
-                <h1 className='xs:text-left xs:ml-0 xs:mr-auto md:text-center'>Create Account</h1>
-                </div>
-                <div>
-                <div className=' left-0 xs:ml-0 xs:mr-auto md:flex md:flex-col md:items-center md:justify-center '>
-
-                    <div className='w-[300px] md:w-full justify-center xs:w-56 flex flex-col md:flex-row bg-white'>
-                        <button >
-                        <div className='xs:w-[350px] flex xs:w-56 md:justify-center xs:w-56 md:w-full border-[#9D9D9D] border p-2 rounded-full'>
-                            <img src={google} className='w-10 h-10 mr-2'/>
-                            <p className='text-center py-2 text-[#9D9D9D]'>Sign up with google</p>
-                        </div>
-                        </button>
-                        <button >
-                        <div className='flex xs:w-[350px] md:w-full border-[#9D9D9D] border p-2 rounded-full'>
-                            <img src={facebook} className='w-10 h-10 mr-2'/>
-                            <p className='text-center py-2 text-[#9D9D9D]'>Sign up with Facebook</p>
-                        </div>
-                        </button>
-                  
+        <div className='  md:bg-btn'>
+            <img src={signin} atl="signin" className='hidden md:block xl:w-[30%] md:w-[30%] sm:w-[30%] lg:w-[30%] md:h-[600px] sm:h-[600px] lg:h-[600px] md:float-left md:ml-36 md:rounded-r-3xl'/>
+            <div className=' w-[70%] h-[700px] ms:h-[650px]  md:rounded-l-3xl md:mr-0 md:ml-auto bg-white '>
+                <div className='ml-0 xs:w-[300px] xs:ml-5 xs:mr-auto xs: md:w-[80%]  md:mr-20 md:ml-auto  '>
+                    <div className='py-10'>
+                    <h1 className='xs:text-left xs:ml-10 xs:mr-auto md:text-center px-20'>Create Account</h1>
                     </div>
-                    <h2 className='text-[#A6A6A6]  text-left mx-32 xs:text-center text-2xl'>-OR-</h2>
-                    <form onSubmit={handleSubmit}>
-                        <div className='w-[250px] justify-center'>
+                    <div>
+                    <div className=' left-0 xs:ml-0 xs:mr-auto md:flex md:flex-col md:items-center md:justify-center '>
+                          <div className='w-[300px] md:w-full justify-center xs:w-56 flex flex-col md:flex-row ml-5 md:ml-0 '>
+                            <button className='bg-white'>
+                            
+                            <div className='xs:w-[350px] flex md:w-full border-[#9D9D9D] border p-2 rounded-full'>
+                                <img src={google} className='w-10 h-10 mr-2'/>
+                                <p className='text-center py-2 text-[#9D9D9D]'>Sign up with google</p>
+                            </div>
+                            </button>
+                            <button className='bg-white'>
+                            <div className='flex xs:w-[350px] md:w-full border-[#9D9D9D] border p-2 rounded-full'>
+                                <img src={facebook} className='w-10 h-10 mr-2'/>
+                                <p className='text-center py-2 text-[#9D9D9D]'>Sign up with Facebook</p>
+                            </div>
+                            </button>
+                      
+                        </div>
+                        <h2 className='text-[#A6A6A6]  ml-20 md:ml-0 text-center text-2xl'>-OR-</h2>
+                        <form onSubmit={handleSubmit}>
+                        <div className='w-[250px] ml-10 md:ml-0 justify-center'>
                            
                                 <div className='my-6'>
                                     <input type="text" id="Full Name" className={`  bg-gray-50 border-b-2 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-50`} placeholder='Full Name'/>
@@ -79,23 +78,24 @@ export default function Doctor_SignIn() {
                                 </div> 
                             
                         </div>
-                        <button type="submit" className="xs:ml-5 ml:auto w-[240px] bg-lightcyan hover:shadow-xl hover:bg-btn text-white border-black justify-center outline-primary rounded-full font-semibold ">
+                        <button type="submit" className="ml-10 md:ml-0 w-[240px] bg-lightcyan hover:shadow-xl hover:bg-btn text-white border-black justify-center outline-primary rounded-full font-semibold ">
                             Create Account
                         </button>
+                        <div className='w-full ml-10 md:ml-0 bg-white flex md:items-center md:justify-center my-5'>
+                        <h4 className='text-[#A6A6A6]'>Already have an account?</h4>
+                        <Link to="/patientlogin">
+                            <span className=' cursor-pointer text-lightcyan underline underline-offset-1'>Login</span>
+                        </Link>
+                        </div>
+                        
                         </form>
-                    <div className='w-full bg-white flex md:items-center md:justify-center my-5'>
-                    <h4 className='text-[#A6A6A6]'>Already have an account?</h4>
-                    <Link to="/doctorlogin">
-                        <span className=' cursor-pointer text-lightcyan underline underline-offset-1'>Login</span>
-                    </Link>
+                        
+                    </div>
                     </div>
                 </div>
-                </div>
             </div>
+            
         </div>
-        
     </div>
-  
-</div>
   )
 }
