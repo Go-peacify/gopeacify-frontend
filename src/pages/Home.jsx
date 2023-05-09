@@ -9,7 +9,6 @@ import AboutUs from "../components/AboutUs";
 import { Stats } from "../components/Stats";
 import Contact from "../components/Footer/Contact";
 import Testinomial from "../components/Testinomial";
-import Leafcard from "../components/Leafcard";
 import Testinomialimg from "../components/Testinomialimg";
 import Appointment from "../components/Appointment";
 // import Health from "../components/Health";
@@ -20,7 +19,6 @@ const Home = () => {
       <Whyus />
       <Issue />
       {/* <Health /> */}
-      <Leafcard />
       <Intern />
       <Appointment />
       <Testinomialimg />

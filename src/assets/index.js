@@ -9,15 +9,14 @@ import WhyUs_pic from "./WhyUs/WhyUs-pic.png";
 import WhyUs1 from "./WhyUs/WhyUs-1.png";
 import WhyUs2 from "./WhyUs/WhyUs-2.png";
 import WhyUs3 from "./WhyUs/WhyUs-3.png";
-import Experience from "./WhyUs/experience.svg"; 
-import Commitment from "./WhyUs/commitment.svg"; 
-import Facilities from "./WhyUs/facilities.svg"; 
+import Experience from "./WhyUs/experience.svg";
+import Commitment from "./WhyUs/commitment.svg";
+import Facilities from "./WhyUs/facilities.svg";
 
 export { default as whyimg1 } from "./WhyUs/whyimg1.png";
 export { default as whyimg2 } from "./WhyUs/whyimg2.png";
 export { default as whyimg3 } from "./WhyUs/whyimg3.png";
 export { default as whyimg4 } from "./WhyUs/whyimg4.png";
-
 
 // Privacy Banner
 import trusted from "./PrivacyBanner/Trusted.png";
@@ -76,7 +75,7 @@ export { Image2 };
 export { Image2Ellipse };
 export { logo };
 export { Landing };
-export {Heart};
+export { Heart };
 // Doctor page
 export { Med };
 export { Line };
@@ -98,9 +97,9 @@ export { WhyUs_pic };
 export { WhyUs1 };
 export { WhyUs2 };
 export { WhyUs3 };
-export {Experience}; 
-export {Commitment}; 
-export {Facilities}; 
+export { Experience };
+export { Commitment };
+export { Facilities };
 // Privacy Banner
 export { trusted };
 export { insured };
@@ -119,9 +118,8 @@ export { cloud };
 export { internbg };
 export { internship };
 export { interngradient };
-export {LeftBlob};
-export {RightBlob};
-
+export { LeftBlob };
+export { RightBlob };
 
 import background_issue from "./IssueCards/background issue.png";
 import cloud from "./IssueCards/cloud.png";
@@ -136,8 +134,8 @@ import Stress from "./IssueCards/stress.png";
 import internbg from "./Internship/internbg.png";
 import internship from "./Internship/internship.png";
 import interngradient from "./Internship/interngradient.png";
-import LeftBlob from './Internship/blobLeft.svg'; 
-import RightBlob from './Internship/blobRight.svg'
+import LeftBlob from "./Internship/blobLeft.svg";
+import RightBlob from "./Internship/blobRight.svg";
 //SingIn
 import facebook from "./SignIn/facebook.png";
 import google from "./SignIn/google.png";
@@ -162,6 +160,8 @@ export { person4 };
 export { person5 };
 export { person6 };
 export { testimonial };
+export { default as demodoc } from "./AllDoctor/demodoc.png";
+export { default as patient } from "./AllDoctor/patient.png";
 
 //exporting images for Signin
 export { facebook };
@@ -202,7 +202,6 @@ export { default as test5 } from "./Testinomial/test5.png";
 export { default as plant } from "./Testinomial/plant.png";
 //ISSUE PAGE
 import help from "./IssuePage/help.png";
-
 //Investors
 export { s1 };
 export { s2 };
@@ -225,7 +224,7 @@ export { Confusion1 };
 export { Depression };
 export { OCD };
 export { Stress };
-
+export { default as heroimg } from "./issue/heroimg.png";
 //animated gifs
 export { default as top } from "./gif/top.gif";
 export { default as bottom } from "./gif/bottom.gif";
@@ -285,14 +284,14 @@ export { Goal1 };
 import Blog1 from "./blog/blog1.jpg";
 import Blog2 from "./blog/blog2.jpg";
 import Blog3 from "./blog/blog3.jpg";
-import blogmain from "./blog/blogmain.png"
-import blogmain2 from "./blog/blogmain2.png"
+import blogmain from "./blog/blogmain.png";
+import blogmain2 from "./blog/blogmain2.png";
 
 export { Blog1 };
 export { Blog2 };
 export { Blog3 };
-export {blogmain};
-export {blogmain2};
+export { blogmain };
+export { blogmain2 };
 // Med
 import Med1 from "./Med/MeditationImg.svg";
 import Med2 from "./Med/MeditationPoster.jpg";
@@ -301,26 +300,23 @@ export { Med1 };
 
 export { Med2 };
 
-
 // Testimonial home page
 
-import TestimonialLeftBlob from './Testinomial/testimonial-leftBlob.svg';
-import TestimonialRightBlob from './Testinomial/testimonial-rightBlob.svg';
-import Star from './Testinomial/star.svg';
+import TestimonialLeftBlob from "./Testinomial/testimonial-leftBlob.svg";
+import TestimonialRightBlob from "./Testinomial/testimonial-rightBlob.svg";
+import Star from "./Testinomial/star.svg";
 
-export {TestimonialLeftBlob, TestimonialRightBlob, Star}; 
-
+export { TestimonialLeftBlob, TestimonialRightBlob, Star };
 
 // Features home page
 
-import Safe from './features/safe.svg'; 
-import Secure from './features/secure.svg'; 
-import Community from './features/community.svg'; 
-import EasyAccess from './features/easyAccess.svg'; 
-import Effective from './features/effective.svg'; 
+import Safe from "./features/safe.svg";
+import Secure from "./features/secure.svg";
+import Community from "./features/community.svg";
+import EasyAccess from "./features/easyAccess.svg";
+import Effective from "./features/effective.svg";
 
+export { Safe, Secure, Community, EasyAccess, Effective };
 
-export {Safe, Secure, Community, EasyAccess, Effective};
-
-import downarrow from "./downarrow.svg"
-export {downarrow};
+import downarrow from "./downarrow.svg";
+export { downarrow };
