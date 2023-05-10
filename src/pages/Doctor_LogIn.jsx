@@ -29,9 +29,11 @@ export default function Doctor_LogIn() {
                             <input type="password" id="password" className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="•••••••••" required/>
                             <p className="absolute mt-1 text-sm leading-tight text-right text-blue-3 text-[#52D0C2]" >Forgot Password?</p>
                         </div> 
+                        <Link to="/doctorDashboard">
                         <button type="button" className="  ml-0 mb-5 tracking-widest w-[250px] md:w-[400px] h-[50px] bg-lightcyan hover:shadow-xl hover:bg-btn text-white border-black justify-center outline-primary rounded-xl font-semibold ">
                         LOGIN
                         </button>
+                        </Link>
                     </div>
                     
                 </div>
