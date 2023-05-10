@@ -83,7 +83,7 @@ export default function Doctor_SignIn() {
                         </button>
                         <div className='w-full ml-10 md:ml-0 bg-white flex md:items-center md:justify-center my-5'>
                         <h4 className='text-[#A6A6A6]'>Already have an account?</h4>
-                        <Link to="/patientlogin">
+                        <Link to="/doctorlogin">
                             <span className=' cursor-pointer text-lightcyan underline underline-offset-1'>Login</span>
                         </Link>
                         </div>

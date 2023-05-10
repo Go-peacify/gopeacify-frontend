@@ -11,8 +11,8 @@ export default function AllDoctor() {
       </h6>
       <div className="w-full">
         <div className="">
-          <div className=" p-4 rounded-lg md:p-8 ">
-            <dl className="grid max-w-screen-xl grid-cols-2 gap-0 xl:gap-x-20 p-4 mx-auto  sm:grid-cols-3 xl:grid-cols-5  sm:p-8">
+          <div className="  rounded-lg md:px-[150px] bg-[#F0FCFB] ">
+            <dl className="grid max-w-screen-xl grid-cols-2 gap-6  xl:gap-y-20 xl:gap-x-20 p-4 mx-auto  sm:grid-cols-3 xl:grid-cols-4  sm:p-8">
               <DoctorCard />
               <DoctorCard />
               <DoctorCard />
@@ -29,8 +29,8 @@ export default function AllDoctor() {
               <DoctorCard />
               <DoctorCard />
             </dl>
-            <div className="flex flex-wrap justify-center w-full">
-              <button className="text-white rounded-3xl bg-gradient-to-r from-[#70ECEC] to-[#5C8A99]">
+            <div className="flex flex-wrap justify-center w-full ">
+              <button className="text-white rounded-3xl mb-4 bg-gradient-to-r from-[#70ECEC] to-[#5C8A99]">
                 View all Doctor
               </button>
             </div>
@@ -56,8 +56,8 @@ export default function AllDoctor() {
           </p>
         </div>
         <div className=" p-4 rounded-lg md:p-8 ">
-          <dl className="grid max-w-screen-xl grid-cols-1 gap-10 xl:gap-x-20 p-4 mx-auto  sm:grid-cols-2 xl:grid-cols-2  sm:p-8">
-            <img src={testimonial} alt="testimonial" />
+          <dl className="grid max-w-screen-xl h-auto md:h-[400px] grid-cols-1 gap-10 xl:gap-x-20 p-4 mx-auto  sm:grid-cols-2 xl:grid-cols-2  sm:p-8">
+            <img src={testimonial} alt="testimonial" className="md:ml-10 h-3/4" />
             <TestimonialSwiper />
           </dl>
         </div>

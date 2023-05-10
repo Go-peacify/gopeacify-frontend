@@ -320,3 +320,28 @@ export { Safe, Secure, Community, EasyAccess, Effective };
 
 import downarrow from "./downarrow.svg";
 export { downarrow };
+
+
+// Doctor Dashboard
+import search from "./DoctorDashboard/search.png";
+import chat from "./DoctorDashboard/chat.png";
+import bell from "./DoctorDashboard/bell.png";
+import kim from "./DoctorDashboard/kim.png";
+import doctor from "./DoctorDashboard/doctor.png";
+import incline from "./DoctorDashboard/incline.png";
+import decline from "./DoctorDashboard/decline.png"; 
+import fever from "./DoctorDashboard/fever.png";
+import cough from "./DoctorDashboard/cough.png";
+import heart from "./DoctorDashboard/heart.png";
+import dots from "./DoctorDashboard/dots.png";
+export { search };
+export {chat}
+export {bell}
+export {kim}
+export {doctor}
+export {incline}
+export {decline}
+export {fever}
+export {cough}
+export {heart}
+export {dots}
