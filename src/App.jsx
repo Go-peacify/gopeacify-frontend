@@ -18,6 +18,8 @@ import GoalPlan from "./pages/Yoga/goalPlan";
 import Meditation1 from "./pages/Yoga/meditation";
 import Blog from "./pages/blog";
 import DoctorDashboard from "./pages/DoctorDashboard";
+import AboutUs from "./pages/Aboutus";
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gopeacify-frontend" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/doctor" element={<Experts />} />
         <Route path="/internship" element={<Intern />} />
         <Route path="/issues" element={<IssuePage />} />
@@ -34,7 +37,7 @@ function App() {
         <Route path="/doctorlogin" element={<Doctor_LogIn />} />
         <Route path="/alldoctor" element={<AllDoctor />} />
         <Route path="/blog" element={<Blog />} />
-        
+
         <Route path="/yoga" element={<Meditation />} />
         <Route path="/sadhna" element={<Sadhna />} />
         <Route path="/brainExercise" element={<BrainExercise />} />

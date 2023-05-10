@@ -299,7 +299,12 @@ import Med2 from "./Med/MeditationPoster.jpg";
 export { Med1 };
 
 export { Med2 };
-
+//about us
+export { default as img1 } from "./AboutUs/img1.png";
+export { default as img2 } from "./AboutUs/img2.png";
+export { default as img3 } from "./AboutUs/img3.png";
+export { default as img4 } from "./AboutUs/img4.png";
+export { default as lowerimg } from "./AboutUs/lowerimg.jpg";
 // Testimonial home page
 
 import TestimonialLeftBlob from "./Testinomial/testimonial-leftBlob.svg";
