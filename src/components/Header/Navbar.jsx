@@ -206,7 +206,7 @@ const Navbar = () => {
         </p>
 
         <div className="">
-          <div
+          <Link to="/patientsignin"><div
             onClick={handleButtonClick}
             className="
             bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]
@@ -228,7 +228,8 @@ const Navbar = () => {
             sign up
             <span className="hidden">Hidden Text</span>
           </div>
-          {showDropdown && (
+          </Link>
+          {/* {showDropdown && (
             <div className=" absolute w-[140px] border shadow-lg bg-transparent mt-2 rounded-lg dropdown-content">
               <ul className=" text-sm text-gray-700 dark:text-gray-200">
                 <li>
@@ -247,7 +248,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-          )}
+          )} */}
         </div>
       </div>
 
