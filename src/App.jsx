@@ -50,11 +50,11 @@ function App() {
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
         <Route path="/doctorDashboard" element={<DoctorDashboard />} />
-        <Route path="/gopeacify-frontend/musicalTherapy" element={<MusicalTherapy />} />
-        <Route path="/gopeacify-frontend/transcedentalMeditation" element={<TranscedentalMeditation />} />
-        <Route path="/gopeacify-frontend/MeditationTherapy2" element={<MeditationTherapy2 />} />
-        <Route path="/gopeacify-frontend/MeditationTherapy3" element={<MeditationTherapy3 />} />
-        <Route path="/gopeacify-frontend/MeditationTherapy4" element={<MeditationTherapy4 />} />
+        <Route path="/musicalTherapy" element={<MusicalTherapy />} />
+        <Route path="/transcedentalMeditation" element={<TranscedentalMeditation />} />
+        <Route path="/MeditationTherapy2" element={<MeditationTherapy2 />} />
+        <Route path="/MeditationTherapy3" element={<MeditationTherapy3 />} />
+        <Route path="/MeditationTherapy4" element={<MeditationTherapy4 />} />
 
       </Routes>
       <Footer />

@@ -17,7 +17,7 @@ const transcedentalMeditation = () => {
                     <p>Transcedental Meditation</p>
                 </div>
                 <div className="blogImgPart">
-                    <div className="transLayer2">
+                    <div className="transLayer2 tr2">
                         <img src={rect40019} alt="" srcset="" />
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae repudiandae perferendis consectetur, eligendi ipsa a tempora alias ipsam? Harum unde eum sed odit sit modi voluptatum expedita eos recusandae quo a id suscipit labore cupiditate eveniet quibusdam, consequuntur quod? Sequi hic deleniti eaque dolorem voluptate nam dicta cumque ipsa quae amet, dolore ipsam saepe, maiores, aut natus modi qui! Facilis quo reprehenderit nemo ipsa blanditiis nostrum molestiae voluptas maiores beatae? Pariatur nostrum veniam ad consequuntur in magnam sapiente minima deserunt consequatur unde, dignissimos animi, velit inventore dolor. Consequuntur, adipisci amet! Ad fugiat nesciunt maxime! Amet recusandae voluptas accusamus minus.</p>
                     </div>
