@@ -12,6 +12,7 @@ import {
   image2,
   image3,
   slider,
+  Img6, Img8
 } from "../assets";
 
 const Intern = () => {
@@ -205,20 +206,27 @@ const Intern = () => {
           </p>
         </div>
       </div>
-      <div className="abeolute">
+      <div className="">
         <h1
           style={{ fontFamily: "Raleway" }}
           className="font-bold text-7xl bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent  w-[480px] ml-60 "
         >
-          listen to their stories.
+          Listen to their stories.
         </h1>
-        <div className="relative mt-[-60px]">
+        {/* <div className=" mt-[-60px]">
           <img
             src={slider}
-            className="absolute top-0 mr-[190px] mt-40 right-0 z-10"
+            className="relative top-0 mr-[190px] mt-40 right-0 z-10"
           />
           <img src={grubimg} className="relative z-0 float-right" />
-        </div>
+        </div> */}
+        <img src={grubimg} className="absolute right-0 z-0 " />
+          <div className='w-[80%] mx-auto bg-transparent relative rounded-[2em] ml-60  overflow-hidden my-20'>
+            <img src={Img6} className=' w-[989px]' />
+            <div className='w-[989px] h-full rounded-[2em] absolute top-0 z-20 bg-gradient-to-r  from-[#525C5A] to-[#2B2D2D] opacity-50'></div>
+            
+          </div>
+        
       </div>
     </>
   );

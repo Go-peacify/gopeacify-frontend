@@ -17,7 +17,9 @@ import BrainExercise from "./pages/Yoga/brainExercise";
 import GoalPlan from "./pages/Yoga/goalPlan";
 import Meditation1 from "./pages/Yoga/meditation";
 import Blog from "./pages/blog";
+import DoctorDashboard from "./pages/DoctorDashboard";
 import AboutUs from "./pages/Aboutus";
+
 function App() {
   return (
     <BrowserRouter basename="/gopeacify-frontend">
@@ -41,6 +43,7 @@ function App() {
         <Route path="/brainExercise" element={<BrainExercise />} />
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
+        <Route path="/doctorDashboard" element={<DoctorDashboard />} />
       </Routes>
       <Footer />
     </BrowserRouter>
