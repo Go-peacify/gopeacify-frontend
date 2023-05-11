@@ -61,19 +61,19 @@ const Navbar = () => {
               </p>
               <div className="py-1">
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                  Therapy
+                 <Link to="/musicalTherapy" className="no-underline">Therapy</Link> 
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                  Psychiatry
+                <Link to="/transcedentalMeditation" className="no-underline">Psychiatry</Link>
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                  Couples Therapy
+                <Link to="/MeditationTherapy2" className="no-underline">Couples Therapy</Link>
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                  Self-Care
+                <Link to="/MeditationTherapy3" className="no-underline">Self-Care</Link>
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                  Community
+                <Link to="/MeditationTherapy4" className="no-underline">Community</Link>
                 </a>
               </div>
             </div>
