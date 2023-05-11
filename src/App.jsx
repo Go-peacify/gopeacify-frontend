@@ -28,7 +28,7 @@ import MeditationTherapy4 from "./pages/meditationTherapy4";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/gopeacify-frontend">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
