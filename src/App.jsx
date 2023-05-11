@@ -19,6 +19,12 @@ import Meditation1 from "./pages/Yoga/meditation";
 import Blog from "./pages/blog";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import AboutUs from "./pages/Aboutus";
+import MusicalTherapy from "./pages/musicalTherapy";
+import TranscedentalMeditation from "./pages/transcedentalMeditation";
+import MeditationTherapy2 from "./pages/meditationTherapy2";
+import MeditationTherapy3 from "./pages/meditationTherapy3";
+import MeditationTherapy4 from "./pages/meditationTherapy4";
+
 
 function App() {
   return (
@@ -44,6 +50,12 @@ function App() {
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
         <Route path="/doctorDashboard" element={<DoctorDashboard />} />
+        <Route path="/gopeacify-frontend/musicalTherapy" element={<MusicalTherapy />} />
+        <Route path="/gopeacify-frontend/transcedentalMeditation" element={<TranscedentalMeditation />} />
+        <Route path="/gopeacify-frontend/MeditationTherapy2" element={<MeditationTherapy2 />} />
+        <Route path="/gopeacify-frontend/MeditationTherapy3" element={<MeditationTherapy3 />} />
+        <Route path="/gopeacify-frontend/MeditationTherapy4" element={<MeditationTherapy4 />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>

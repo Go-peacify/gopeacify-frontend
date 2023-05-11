@@ -17,7 +17,7 @@ const Navbar = () => {
     setShowDropdown(!showDropdown);
   }
   return (
-    <nav className="flex px-12 justify-between ">
+    <nav className="flex px-12 justify-between shadow-md">
       <div className="">
         <Link to="/" className="no-underline">
           <img src={logo} className="w-full h-16" />
