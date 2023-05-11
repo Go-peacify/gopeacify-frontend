@@ -7,12 +7,15 @@ import IssueCategory from "../IssueCategory";
 import Users from "../Users";
 import Questions from "../Questions";
 import Blog from "../Blogs";
+import Doctors from "../Doctors";
+import DoctorDetailPage from "../DoctorDetailPage";
 
 const SidebarRouting = () => {
   return (
         <SideBar>
         <Routes>
-          {/* <Route exact path="doctors" element={""}/> */}
+        <Route exact path="/sidebar/admindoctordetailpage" element={<DoctorDetailPage/>}/>
+          <Route exact path="admindoctors" element={<Doctors/>}/>
           <Route exact path="adminqueries" element={<Queries/>}/>
           <Route exact path="adminissues" element={<Issue/>}/>
           <Route exact path="adminissuecategory" element={<IssueCategory/>}/>
