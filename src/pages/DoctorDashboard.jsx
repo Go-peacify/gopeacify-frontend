@@ -11,7 +11,7 @@ export default function DoctorDashboard() {
 
   return (
     <div className='px-20 py-10'>
-        <div className='flex md:flex-row h-[60px]'>
+        <div className='md:flex md:flex-row h-auto md:h-[60px]'>
       <div className='xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[45%] xs:w-[75%] flex'>
                     <input placeholder='Search ' className='py-4 pl-2 w-[100%] text-black outline-none bg-[#E5E5E5]  border-gray-300 border-[1px] rounded-s-xl' />
                     <div className='bg-[#E5E5E5] py-4 px-12 rounded-e-xl'>
@@ -19,7 +19,7 @@ export default function DoctorDashboard() {
                     </div>
                     
         </div>
-        <div className=' w-[30%] flex justify-end mr=0'>
+        <div className=' w-screen md:w-[30%] flex justify-start my-5 md:my-0  md:justify-end mr=0'>
                     <img src={chat} className='w-6 h-6 ml-4 my-4 '></img>
                     <img src={bell} className='w-6 h-6 ml-4 my-4'></img>
                     <div className='flex flex-row ml-4 border border-black w-[170px] p-2 rounded-3xl'>
@@ -37,7 +37,7 @@ export default function DoctorDashboard() {
                   <span className=' font-semibold  text-transparent bg-clip-text bg-gradient-to-r from-[#45BDBF] to-[#005C7B]'> Dr Kim!</span>
                   </h1>
               </div>
-              <div className='h-[312px] w-[500px] md:w-[815px] rounded-3xl my-8 bg-gradient-to-r from-[#B2E6FD] to-[#52D0C2] flex flex-row'>
+              <div className='h-[350px] md:h-[312px] w-screen md:w-[815px] rounded-3xl my-8 bg-gradient-to-r from-[#B2E6FD] to-[#52D0C2] flex flex-row'>
                 <div className='w-[60%] ml-10 py-10'>
                   <h3 className='font-semibold text-3xl'>Visits for Today</h3>
                   <h1>104</h1>
