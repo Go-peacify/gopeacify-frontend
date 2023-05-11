@@ -20,7 +20,7 @@ import Blog from "./pages/blog";
 import AboutUs from "./pages/Aboutus";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/gopeacify-frontend">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
