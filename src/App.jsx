@@ -19,12 +19,14 @@ import Meditation1 from "./pages/Yoga/meditation";
 import Blog from "./pages/blog";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import AboutUs from "./pages/Aboutus";
+import SidebarRouting from "./components/AdminPages/SideBar/SidebarRouting";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
+      <SidebarRouting/>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gopeacify-frontend" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -44,7 +46,7 @@ function App() {
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
         <Route path="/doctorDashboard" element={<DoctorDashboard />} />
-      </Routes>
+      </Routes> */}
       <Footer />
     </BrowserRouter>
   );
