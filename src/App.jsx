@@ -25,8 +25,8 @@ import MeditationTherapy2 from "./pages/meditationTherapy2";
 import MeditationTherapy3 from "./pages/meditationTherapy3";
 import MeditationTherapy4 from "./pages/meditationTherapy4";
 
-
 function App() {
+  const isLoggedIn = window.localStorage.getItem("loggedIn");
   return (
     <BrowserRouter basename="/gopeacify-frontend">
       <Navbar />
@@ -39,7 +39,11 @@ function App() {
         <Route path="/issues" element={<IssuePage />} />
         <Route path="/patientsignin" element={<Patient_SignIn />} />
         <Route path="/doctorsignin" element={<Doctor_SignIn />} />
-        <Route path="/patientlogin" element={<Patient_LogIn />} />
+        <Route
+          exact
+          path="/patientlogin"
+          element={isLoggedIn == "true" ? "" : <Patient_LogIn />}
+        />
         <Route path="/doctorlogin" element={<Doctor_LogIn />} />
         <Route path="/alldoctor" element={<AllDoctor />} />
         <Route path="/blog" element={<Blog />} />
@@ -51,11 +55,13 @@ function App() {
         <Route path="/meditation" element={<Meditation1 />} />
         <Route path="/doctorDashboard" element={<DoctorDashboard />} />
         <Route path="/musicalTherapy" element={<MusicalTherapy />} />
-        <Route path="/transcedentalMeditation" element={<TranscedentalMeditation />} />
+        <Route
+          path="/transcedentalMeditation"
+          element={<TranscedentalMeditation />}
+        />
         <Route path="/MeditationTherapy2" element={<MeditationTherapy2 />} />
         <Route path="/MeditationTherapy3" element={<MeditationTherapy3 />} />
         <Route path="/MeditationTherapy4" element={<MeditationTherapy4 />} />
-
       </Routes>
       <Footer />
     </BrowserRouter>
