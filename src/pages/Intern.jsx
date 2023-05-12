@@ -23,15 +23,13 @@ const Intern = () => {
   }, []);
   return (
     <>
-      <div className="flex">
-        <div className="w-1/3 ml-[82px]">
-          <img src={image3}></img>
-        </div>
+      <div className="flex flex-row-reverse">
+        
         <div className="flex flex-col justify-center items-center  w-[75%]">
           <span className="font-bold text-6xl  leading-20 bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
             Looking for an Internship?
           </span>
-          <p className="text-[#383838] mt-3 w-[766px]">
+          <p className="text-[#383838]  w-[766px]">
             Mental health internships can provide valuable insight into the
             industry. As an intern in a mental health company, you will learn
             from experienced professionals and work alongside them. In this way,
@@ -46,6 +44,9 @@ const Intern = () => {
               left find yours
             </button>
           </div>
+        </div>
+        <div className="w-1/3 ml-[82px]">
+          <img src={image3}></img>
         </div>
       </div>
 
@@ -140,7 +141,7 @@ const Intern = () => {
         </h2>
       </div>
 
-      <div className="flex w-[90%] m-auto  items-center my-48 gap-8">
+      <div className="flex w-full m-auto  items-center my-48 gap-8">
         <div className="items-center flex flex-col">
           <img className="w-[100px] h-[100px]" src={Support} alt="element 1" />
           <h2 className="mt-12 text-center text-lg text-black font-medium">
