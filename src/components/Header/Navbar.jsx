@@ -61,23 +61,27 @@ const Navbar = () => {
               </p>
               <div className="py-1">
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  onClick={() => handleClick("musicalTherapy")}>
+                  >
                   Therapy
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  onClick={() => handleClick("transcedentalMeditation")}>
+                  onClick={() => handleClick("musicalTherapy")}>
+                  Musical Therapy
+                </a>
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                 >
                   Psychiatry
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  onClick={() => handleClick("MeditationTherapy2")}>
+                  >
                   Couples Therapy
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  onClick={() => handleClick("MeditationTherapy3")}>
+                  >
                   Self-Care
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  onClick={() => handleClick("MeditationTherapy4")}>
+                  >
                   Community
                 </a>
               </div>

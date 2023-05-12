@@ -24,6 +24,7 @@ import TranscedentalMeditation from "./pages/transcedentalMeditation";
 import MeditationTherapy2 from "./pages/meditationTherapy2";
 import MeditationTherapy3 from "./pages/meditationTherapy3";
 import MeditationTherapy4 from "./pages/meditationTherapy4";
+import MeditationTherapy5 from "./pages/meditationTherapy5";
 
 function App() {
   const isLoggedIn = window.localStorage.getItem("loggedIn");
@@ -62,6 +63,7 @@ function App() {
         <Route path="/MeditationTherapy2" element={<MeditationTherapy2 />} />
         <Route path="/MeditationTherapy3" element={<MeditationTherapy3 />} />
         <Route path="/MeditationTherapy4" element={<MeditationTherapy4 />} />
+        <Route path="/MeditationTherapy5" element={<MeditationTherapy5 />} />
       </Routes>
       <Footer />
     </BrowserRouter>
