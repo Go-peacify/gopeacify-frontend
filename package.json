@@ -1,5 +1,5 @@
 {
-  "name": "peacifybeta",
+  "name": "gopeacifybeta",
   "homepage": "https://Go-peacify.github.io/gopeacify-frontend",
   "private": true,
   "version": "0.0.0",
@@ -52,6 +52,8 @@
       "not dead",
       "not op_mini all"
     ],
+
+ 
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
