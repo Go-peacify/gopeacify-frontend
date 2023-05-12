@@ -44,32 +44,32 @@ const Meditation = () => {
 
 
             <div className=' min-h-[25em] sm:w-[90%] xs:mx-auto xs:w-full m-auto flex sm:flex-row  flex-wrap sm:justify-between justify-center  sm:relative my-20'>
-                <div onClick={()=>navigate('/transcedentalMeditation')} className={`sm:w-[28%] w-[80%]   sm:absolute sm:top-0 sm:left-0  ${card1 ? "z-20" : "z-0"} `} onMouseOver={() => setcard1(true)} onMouseOut={() => setcard1(false)} >
+                <div onClick={()=>navigate('/meditation')} className={`sm:w-[28%] w-[80%]   sm:absolute sm:top-0 sm:left-0  ${card1 ? "z-20" : "z-0"} `} onMouseOver={() => setcard1(true)} onMouseOut={() => setcard1(false)} >
                     <h2 className='text-xl font-semibold pl-4 text-[#DECEE5]'>Meditation</h2>
                     <div className='cursor-pointer w-full flex bg-gradient-to-r from-[#D2C9FE] to-[#D9BFFF]   h-72 rounded-3xl'>
                         <img src={meditation} className='mx-auto my-auto ' />
                     </div>
                 </div>
-                <div onClick={() => navigate('/MeditationTherapy2')}  className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[18%]  ${card2 ? "z-20" : "z-10"}`} onMouseOver={() => setcard2(true)} onMouseOut={() => setcard2(false)}>
+                <div onClick={() => navigate('/')}  className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[18%]  ${card2 ? "z-20" : "z-10"}`} onMouseOver={() => setcard2(true)} onMouseOut={() => setcard2(false)}>
                     <h2 className='text-xl font-semibold pl-4 text-[#BDDA9A]'>Yoga</h2>
                     <div className='cursor-pointer w-full flex bg-gradient-to-r from-[#E5FDCA] to-[#A7ECF7]  h-72 rounded-3xl'>
                         <img src={yoga} className='mx-auto my-auto ' />
                     </div>
                 </div>
-                <div onClick={() => navigate('/MeditationTherapy3')} className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[36%]  ${card3 ? "z-30" : "z-10"}`} onMouseOver={() => setcard3(true)} onMouseOut={() => setcard3(false)}>
+                <div onClick={() => navigate('/sadhna')} className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[36%]  ${card3 ? "z-30" : "z-10"}`} onMouseOver={() => setcard3(true)} onMouseOut={() => setcard3(false)}>
                     <h2 className='text-xl font-semibold pl-4 text-[#B2DDE3]'>Sadhna</h2>
                     <div className='cursor-pointer w-full flex bg-gradient-to-r from-[#F8D2DC] to-[#D1F1F8]  h-72 rounded-3xl'>
                         <img src={sadhna} className='mx-auto my-auto ' />
 
                     </div>
                 </div>
-                <div onClick={() => navigate('/MeditationTherapy4')} className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[56%]  ${card4 ? "z-50" : "z-10"} `} onMouseOver={() => setcard4(true)} onMouseOut={() => setcard4(false)}>
+                <div onClick={() => navigate('/goalPlan')} className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[56%]  ${card4 ? "z-50" : "z-10"} `} onMouseOver={() => setcard4(true)} onMouseOut={() => setcard4(false)}>
                     <h2 className='text-xl font-semibold pl-4 text-[#FDCD67]'>Goal Plan</h2>
                     <div className='cursor-pointer w-full flex bg-gradient-to-r from-[#FBDFC6] to-[#FED1D2]  h-72 rounded-3xl'>
                         <img src={gaolplan} className='mx-auto my-auto ' />
                     </div>
                 </div>
-                <div onClick={() => navigate('/MeditationTherapy5')} className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[72%]  ${card5 ? "z-10" : "z-10"}`} onMouseOver={() => setcard5(true)} onMouseOut={() => setcard5(false)}>
+                <div onClick={() => navigate('/brainExercise')} className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[72%]  ${card5 ? "z-10" : "z-10"}`} onMouseOver={() => setcard5(true)} onMouseOut={() => setcard5(false)}>
                     <h2 className='text-xl font-semibold pl-4 text-[#F3A3FF]'>Brain Exercise</h2>
                     <div className='cursor-pointer w-full flex bg-gradient-to-r from-[#CFF4FC] to-[#F9E6F5]  h-72 rounded-3xl'>
                         <img src={brainexercise} className='mx-auto my-auto ' />
