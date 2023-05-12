@@ -1,5 +1,6 @@
 import React from 'react'
 import { Flexible, Med2, EllipseSadhna, Rope, Enneagram, Med1, Img2, Img3, Img4, Img5, Img6, Img7, Img8 } from '../../assets'
+import { Link } from "react-router-dom";
 const Sadhna = () => {
     const data = [
         { photo: Img2, name: "Transcendental Meditation" },
@@ -18,10 +19,10 @@ const Sadhna = () => {
               <p className='md:w-[50%] sm:w-[70%] w-full '>Many people are seeing changes after doing meditation on a regular basis
                 Lorem nullam sed lacus, arcu. Dui proin mauris neque vulputate morbi quis et semper. Dui tortor risus amet congue hendrerit integer.
               </p>
-              <div className='flex mt-12'>
+              <Link to='/MeditationTherapy4'><div className='flex mt-12'>
                 <button className='bg-[#008080] rounded-full text-white px-5 py-3'>Get Started</button>
               </div> 
-                
+              </Link>
             </div>
             <div className='absolute ms:flex hidden right-32 top-14 '>
                 <img src={Med1} className='w-[500px]' />
