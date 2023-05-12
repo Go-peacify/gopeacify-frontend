@@ -60,20 +60,25 @@ const Navbar = () => {
                 OUR SERVICES
               </p>
               <div className="py-1">
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                 <Link to="/musicalTherapy" className="no-underline">Therapy</Link> 
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("musicalTherapy")}>
+                  Therapy
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                <Link to="/transcedentalMeditation" className="no-underline">Psychiatry</Link>
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("transcedentalMeditation")}>
+                  Psychiatry
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                <Link to="/MeditationTherapy2" className="no-underline">Couples Therapy</Link>
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("MeditationTherapy2")}>
+                  Couples Therapy
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                <Link to="/MeditationTherapy3" className="no-underline">Self-Care</Link>
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("MeditationTherapy3")}>
+                  Self-Care
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
-                <Link to="/MeditationTherapy4" className="no-underline">Community</Link>
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("MeditationTherapy4")}>
+                  Community
                 </a>
               </div>
             </div>
@@ -180,11 +185,11 @@ const Navbar = () => {
                   Yoga
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                   onClick={() => handleClick("meditation")}>
+                  onClick={() => handleClick("meditation")}>
                   Meditation
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                   onClick={() => handleClick("goalPlan")}>
+                  onClick={() => handleClick("goalPlan")}>
                   Goal Plan
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
@@ -192,7 +197,7 @@ const Navbar = () => {
                   Sadhna
                 </a>
                 <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                onClick={() => handleClick("brainExercise")}>
+                  onClick={() => handleClick("brainExercise")}>
                   Brain Exercise
                 </a>
               </div>
