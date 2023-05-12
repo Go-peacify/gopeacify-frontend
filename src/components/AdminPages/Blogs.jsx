@@ -1,8 +1,28 @@
-import React from 'react'
+import React,{useEffect,useState} from "react";
 import AddCard from './AdminCard/AddCard';
 import CardDetail from './AdminCard/CardDetail';
+import axios from "axios";
 
 const Blogs = () => {
+
+  const[fetchData,setFetchData]=useState();
+
+  useEffect(() => {
+    handleData();
+  }, []);
+
+  const handleData = async () => {
+    axios
+      .get("")
+      .then((res) => {
+        const data = res.data.data;
+        setFetchData(data.slice(0,3));
+      })
+      .catch((error) => {
+        console.error("Error retrieving data:", error);
+      });
+  };
+
   return (
     <div className='p-4'>
     <p className='text-3xl font-semibold mb-6'>Admin Page</p>

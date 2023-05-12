@@ -16,7 +16,7 @@ const DoctorsCard = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
           fugiat veniam facilis!
         </p>
-        <Link to="/sidebar/admindoctordetailpage">
+        <Link to="/admin/doctordetailpage">
   <button type="button" className="text-white bg-[#008080] py-1.5 px-8 mr-2 mb-3 text-lg font-medium focus:outline-none rounded-full">View Profile</button>
 </Link>
 

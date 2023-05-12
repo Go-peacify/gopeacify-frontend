@@ -1,8 +1,35 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import AddCard from "./AdminCard/AddCard";
 import CardDetail from "./AdminCard/CardDetail";
+import axios from "axios";
 
 const Issues = () => {
+  const ADMIN_TOKEN = sessionStorage.getItem("adminToken");
+  const[fetchData,setFetchData]=useState();
+
+  useEffect(() => {
+    handleData();
+  }, []);
+
+  const handleData = async () => {
+    const adminHeaders = {
+      Accept: "application/json",
+      Authorization: ADMIN_TOKEN,
+    };
+    axios
+      .get("http://localhost:3000/admin/issues",{ headers: adminHeaders })
+      .then((res) => {
+        const data = res.data;
+        console.log(res)
+        setFetchData(data);
+      })
+      .catch((error) => {
+        console.error("Error retrieving data:", error);
+      });
+  };
+
+  // console.log(fetchData)
+
   return (
     <div className=" p-4">
       <p className="text-3xl font-semibold mb-6">Admin Page</p>

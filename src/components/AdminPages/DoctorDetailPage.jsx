@@ -1,7 +1,26 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import ProfileImg from "../../assets/profile.png";
 
 const DoctorDetailPage = () => {
+
+  const[fetchData,setFetchData]=useState();
+
+  useEffect(() => {
+    handleData();
+  }, []);
+
+  const handleData = async () => {
+    axios
+      .get("")
+      .then((res) => {
+        const data = res.data.data;
+        setFetchData(data.slice(0,3));
+      })
+      .catch((error) => {
+        console.error("Error retrieving data:", error);
+      });
+  };
+
   return (
     <div class="md:w-4/5 px-4 sm:px-8 py-6 rounded-xl xl:w-[85%]">
       <div class="lg:w-3/4 mx-auto">

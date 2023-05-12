@@ -14,14 +14,14 @@ const SidebarRouting = () => {
   return (
         <SideBar>
         <Routes>
-        <Route exact path="/sidebar/admindoctordetailpage" element={<DoctorDetailPage/>}/>
-          <Route exact path="admindoctors" element={<Doctors/>}/>
-          <Route exact path="adminqueries" element={<Queries/>}/>
-          <Route exact path="adminissues" element={<Issue/>}/>
-          <Route exact path="adminissuecategory" element={<IssueCategory/>}/>
-          <Route exact path="adminusers" element={<Users/>}/>
-          <Route exact path="adminquestions" element={<Questions/>}/>
-          <Route exact path="adminblogs" element={<Blog/>}/>
+        <Route exact path="doctordetailpage" element={<DoctorDetailPage/>}/>
+          <Route exact path="doctors" element={<Doctors/>}/>
+          <Route exact path="queries" element={<Queries/>}/>
+          <Route exact path="issues" element={<Issue/>}/>
+          <Route exact path="issuecategory" element={<IssueCategory/>}/>
+          <Route exact path="users" element={<Users/>}/>
+          <Route exact path="questions" element={<Questions/>}/>
+          <Route exact path="blogs" element={<Blog/>}/>
         </Routes>
       </SideBar>
   );

@@ -4,32 +4,32 @@ import "./SideBar.css";
 
 const routes = [
   {
-    path: "admindoctors",
+    path: "doctors",
     name: "Doctors",
   },
   {
-    path: "adminqueries",
+    path: "queries",
     name: "Queries",
   },
   {
-    path: "adminissues",
+    path: "issues",
     name: "Issues",
   },
 
   {
-    path: "adminissuecategory",
+    path: "issuecategory",
     name: "Issue Category",
   },
   {
-    path: "adminusers",
+    path: "users",
     name: "Users",
   },
   {
-    path: "adminquestions",
+    path: "questions",
     name: "Questions",
   },
   {
-    path: "adminblogs",
+    path: "blogs",
     name: "Blogs",
   },
 ];

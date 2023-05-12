@@ -20,13 +20,15 @@ import Blog from "./pages/blog";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import AboutUs from "./pages/Aboutus";
 import SidebarRouting from "./components/AdminPages/SideBar/SidebarRouting";
+import DocAdminLogin from "./components/AdminPages/DocAdminLogin";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <SidebarRouting/>
-      {/* <Routes>
+      <Routes>
+      <Route path="/gopeacify-frontend/admin/*" element={<SidebarRouting />} />
+      <Route path="/gopeacify-frontend/admin/doclogin" element={<DocAdminLogin />} />
         <Route path="/" element={<Home />} />
         <Route path="/gopeacify-frontend" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -46,7 +48,7 @@ function App() {
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
         <Route path="/doctorDashboard" element={<DoctorDashboard />} />
-      </Routes> */}
+      </Routes>
       <Footer />
     </BrowserRouter>
   );
