@@ -19,6 +19,8 @@ import Meditation1 from "./pages/Yoga/meditation";
 import Blog from "./pages/blog";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import AboutUs from "./pages/Aboutus";
+import SidebarRouting from "./components/AdminPages/SideBar/SidebarRouting";
+import DocAdminLogin from "./components/AdminPages/DocAdminLogin";
 import MusicalTherapy from "./pages/musicalTherapy";
 import TranscedentalMeditation from "./pages/transcedentalMeditation";
 import MeditationTherapy2 from "./pages/meditationTherapy2";
@@ -32,8 +34,9 @@ function App() {
     <BrowserRouter basename="/gopeacify-frontend">
       <Navbar />
       <Routes>
+      <Route path="/gopeacify-frontend/admin/*" element={<SidebarRouting />} />
+      <Route path="/gopeacify-frontend/admin/doclogin" element={<DocAdminLogin />} />
         <Route path="/" element={<Home />} />
-        <Route path="/gopeacify-frontend" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/doctor" element={<Experts />} />
         <Route path="/internship" element={<Intern />} />
