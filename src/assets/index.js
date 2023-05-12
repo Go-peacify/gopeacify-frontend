@@ -23,7 +23,6 @@ import trusted from "./PrivacyBanner/Trusted.png";
 import insured from "./PrivacyBanner/Insured.png";
 import hundred from "./PrivacyBanner/hundred.png";
 // Doctor page
-//doctor page import
 import Med from "./experts/Meds.svg";
 import Line from "./experts/Line.svg";
 import Male from "./experts/male.svg";
