@@ -2,7 +2,7 @@ import React from 'react'
 
 const UserCard = () => {
   return (
-    <div class="shadow-2xl border-2 w-[245px] h-auto rounded-lg m-4 bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+    <div class="shadow-2xl border-2 w-[245px] h-auto rounded-lg m-1 bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <h5 className="my-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
           Name
         </h5>

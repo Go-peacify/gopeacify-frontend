@@ -3,7 +3,6 @@ import { Link, useNavigate} from "react-router-dom";
 import { doctorLogIn } from '../../assets';
 import axios from "axios";
 
-
 export default function DocAdminLogin() {
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
@@ -20,7 +19,6 @@ export default function DocAdminLogin() {
                 sessionStorage.setItem("adminToken", response.data.token)
                 sessionStorage.setItem("isAdminAuthenticated", true)
                 history("/gopeacify-frontend/admin/doctors")
-
             }
         })
       };

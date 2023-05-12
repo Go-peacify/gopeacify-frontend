@@ -24,7 +24,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className='p-4'>
+    <div className='p-1'>
     <p className='text-3xl font-semibold mb-6'>Admin Page</p>
     <div className='bg-[#E9FBF8] rounded-md'>
         <div className='flex flex-row justify-between p-4'>
