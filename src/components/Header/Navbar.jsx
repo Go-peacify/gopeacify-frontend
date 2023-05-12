@@ -179,16 +179,20 @@ const Navbar = () => {
                 >
                   Yoga
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("meditation")}>
                   Meditation
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("goalPlan")}>
                   Goal Plan
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("sadhna")}>
                   Sadhna
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("brainExercise")}>
                   Brain Exercise
                 </a>
               </div>
