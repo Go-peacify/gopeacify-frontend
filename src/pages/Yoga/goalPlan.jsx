@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { Flexible, GoalPlan, EllipseSadhna, Rope, Enneagram, Goal1, Img2, Img3, Img4, Img5, Img6, Img7, Img8 } from '../../assets'
 const Sadhna = () => {
     const data = [
@@ -33,9 +34,10 @@ const Sadhna = () => {
               <p className='md:w-[50%] sm:w-[70%] w-full '>Many people are seeing changes after doing meditation on a regular basis
                 Lorem nullam sed lacus, arcu. Dui proin mauris neque vulputate morbi quis et semper. Dui tortor risus amet congue hendrerit integer.
               </p>
-              <div className='flex mt-12'>
+              <Link to='/MeditationTherapy3'><div className='flex mt-12'>
                 <button className='bg-[#008080] rounded-full text-white px-5 py-3'>Get Started</button>
               </div> 
+              </Link>
                 
             </div>
             <div className='absolute ms:flex hidden right-32 top-14 '>

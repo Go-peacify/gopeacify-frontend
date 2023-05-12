@@ -8,10 +8,10 @@ import newrec2 from "../assets/Images/Rectangle 2 (1).png"
 import newrec3 from "../assets/Images/Rectangle 2 (2).png"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-const meditationTherapy2 = () => {
+const meditationTherapy5 = () => {
     return (
-        <div className="MeditationTherapy2 TranscedentalMeditation">
-            <div className="med2 trans">
+        <div className="meditationTherapy5">
+            <div className="med5 trans">
                 <div className="TranscedentalMed">
                     <p>Transcedental Meditation</p>
                 </div>
@@ -71,8 +71,9 @@ const meditationTherapy2 = () => {
                     <button>Send</button>
                 </div>
             </div>
+
         </div>
     )
 }
 
-export default meditationTherapy2
+export default meditationTherapy5

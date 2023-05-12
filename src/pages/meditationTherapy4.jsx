@@ -1,5 +1,8 @@
 import React from 'react'
 import './myMain.css'
+import rect40019 from "../assets/Images/Rectangle 40019.png"
+import l1 from "../assets/Images/Mindfulness-bro 2.png"
+import l2 from "../assets/Images/Rectangle 39984.png"
 import newrec1 from "../assets/Images/Rectangle 2.png"
 import newrec2 from "../assets/Images/Rectangle 2 (1).png"
 import newrec3 from "../assets/Images/Rectangle 2 (2).png"
@@ -7,9 +10,22 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const meditationTherapy4 = () => {
     return (
-        <div className="MeditationTherapy4">
-            <div className="med4">
-                <p>MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4MediTation 4</p>
+        <div className="MeditationTherapy4 TranscedentalMeditation">
+            <div className="med4 trans">
+                <div className="TranscedentalMed">
+                    <p>Transcedental Meditation</p>
+                </div>
+                <div className="blogImgPart">
+                    <div className="transLayer2 tr2">
+                        <img src={rect40019} alt="" srcset="" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae repudiandae perferendis consectetur, eligendi ipsa a tempora alias ipsam? Harum unde eum sed odit sit modi voluptatum expedita eos recusandae quo a id suscipit labore cupiditate eveniet quibusdam, consequuntur quod? Sequi hic deleniti eaque dolorem voluptate nam dicta cumque ipsa quae amet, dolore ipsam saepe, maiores, aut natus modi qui! Facilis quo reprehenderit nemo ipsa blanditiis nostrum molestiae voluptas maiores beatae? Pariatur nostrum veniam ad consequuntur in magnam sapiente minima deserunt consequatur unde, dignissimos animi, velit inventore dolor. Consequuntur, adipisci amet! Ad fugiat nesciunt maxime! Amet recusandae voluptas accusamus minus.</p>
+                    </div>
+                    <div className="transLayer2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae repudiandae perferendis consectetur, eligendi ipsa a tempora alias ipsam? Harum unde eum sed odit sit modi voluptatum expedita eos recusandae quo a id suscipit labore cupiditate eveniet quibusdam, consequuntur quod? Sequi hic deleniti eaque dolorem voluptate nam dicta cumque ipsa quae amet, dolore ipsam saepe, maiores, aut natus modi qui! Facilis quo reprehenderit nemo ipsa blanditiis nostrum molestiae voluptas maiores beatae? Pariatur nostrum veniam ad consequuntur in magnam sapiente minima deserunt consequatur unde, dignissimos animi, velit inventore dolor. Consequuntur, adipisci amet! Ad fugiat nesciunt maxime! Amet recusandae voluptas accusamus minus.</p>
+                        <img src={l1} alt="" srcset="" />
+                        <img src={l2} alt="" srcset="" />
+                    </div>
+                </div>
             </div>
             <div className="fourthLayer y">
                 <div className="flstart">

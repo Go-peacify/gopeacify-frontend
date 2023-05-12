@@ -50,7 +50,7 @@ const Meditation = () => {
                         <img src={meditation} className='mx-auto my-auto ' />
                     </div>
                 </div>
-                <div  className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[18%]  ${card2 ? "z-20" : "z-10"}`} onMouseOver={() => setcard2(true)} onMouseOut={() => setcard2(false)}>
+                <div onClick={() => navigate('/')}  className={`sm:w-[28%]  w-[80%]   sm:absolute sm:top-0 sm:left-[18%]  ${card2 ? "z-20" : "z-10"}`} onMouseOver={() => setcard2(true)} onMouseOut={() => setcard2(false)}>
                     <h2 className='text-xl font-semibold pl-4 text-[#BDDA9A]'>Yoga</h2>
                     <div className='cursor-pointer w-full flex bg-gradient-to-r from-[#E5FDCA] to-[#A7ECF7]  h-72 rounded-3xl'>
                         <img src={yoga} className='mx-auto my-auto ' />
