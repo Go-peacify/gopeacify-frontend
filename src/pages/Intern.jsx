@@ -23,8 +23,7 @@ const Intern = () => {
   }, []);
   return (
     <>
-      <div className="flex flex-row-reverse">
-        
+      <div className="flex">
         <div className="flex flex-col justify-center items-center  w-[75%]">
           <span className="font-bold text-6xl  leading-20 bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
             Looking for an Internship?
