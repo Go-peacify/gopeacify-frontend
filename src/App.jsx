@@ -30,7 +30,6 @@ function App() {
       <Route path="/gopeacify-frontend/admin/*" element={<SidebarRouting />} />
       <Route path="/gopeacify-frontend/admin/doclogin" element={<DocAdminLogin />} />
         <Route path="/" element={<Home />} />
-        <Route path="/gopeacify-frontend" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/doctor" element={<Experts />} />
         <Route path="/internship" element={<Intern />} />
