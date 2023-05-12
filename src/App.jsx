@@ -21,10 +21,17 @@ import DoctorDashboard from "./pages/DoctorDashboard";
 import AboutUs from "./pages/Aboutus";
 import SidebarRouting from "./components/AdminPages/SideBar/SidebarRouting";
 import DocAdminLogin from "./components/AdminPages/DocAdminLogin";
+import MusicalTherapy from "./pages/musicalTherapy";
+import TranscedentalMeditation from "./pages/transcedentalMeditation";
+import MeditationTherapy2 from "./pages/meditationTherapy2";
+import MeditationTherapy3 from "./pages/meditationTherapy3";
+import MeditationTherapy4 from "./pages/meditationTherapy4";
+import MeditationTherapy5 from "./pages/meditationTherapy5";
 
 function App() {
+  const isLoggedIn = window.localStorage.getItem("loggedIn");
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/gopeacify-frontend">
       <Navbar />
       <Routes>
       <Route path="/gopeacify-frontend/admin/*" element={<SidebarRouting />} />
@@ -36,7 +43,11 @@ function App() {
         <Route path="/issues" element={<IssuePage />} />
         <Route path="/patientsignin" element={<Patient_SignIn />} />
         <Route path="/doctorsignin" element={<Doctor_SignIn />} />
-        <Route path="/patientlogin" element={<Patient_LogIn />} />
+        <Route
+          exact
+          path="/patientlogin"
+          element={isLoggedIn == "true" ? "" : <Patient_LogIn />}
+        />
         <Route path="/doctorlogin" element={<Doctor_LogIn />} />
         <Route path="/alldoctor" element={<AllDoctor />} />
         <Route path="/blog" element={<Blog />} />
@@ -47,6 +58,15 @@ function App() {
         <Route path="/goalPlan" element={<GoalPlan />} />
         <Route path="/meditation" element={<Meditation1 />} />
         <Route path="/doctorDashboard" element={<DoctorDashboard />} />
+        <Route path="/musicalTherapy" element={<MusicalTherapy />} />
+        <Route
+          path="/transcedentalMeditation"
+          element={<TranscedentalMeditation />}
+        />
+        <Route path="/MeditationTherapy2" element={<MeditationTherapy2 />} />
+        <Route path="/MeditationTherapy3" element={<MeditationTherapy3 />} />
+        <Route path="/MeditationTherapy4" element={<MeditationTherapy4 />} />
+        <Route path="/MeditationTherapy5" element={<MeditationTherapy5 />} />
       </Routes>
       <Footer />
     </BrowserRouter>
