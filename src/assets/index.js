@@ -350,3 +350,12 @@ export {fever}
 export {cough}
 export {heart}
 export {dots}
+
+
+import Safe2 from "./SecureBanner/Locker.png"
+import Secure2 from "./SecureBanner/Shield.png"
+import Effective2 from "./SecureBanner/Check.png"
+import Ease2 from "./SecureBanner/Gear.png"
+import Community2 from "./SecureBanner/high five.png"
+
+export { Safe2, Secure2, Effective2, Ease2, Community2 };

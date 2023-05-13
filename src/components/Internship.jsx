@@ -5,19 +5,19 @@ const Internship = () => {
   return (
     <section
       id="internship"
-      className="my-16 py-48 h-[800px] relative z-10 overflow-hidden"
+      className="p-5 md:my-16 md:py-48 sm:h-[800px] relative z-10 overflow-hidden"
     >
       <img
-        className="absolute right-[-150px] top-[-10px]"
+        className="hidden sm:block sm:absolute right-[-150px] top-[-10px]"
         src={RightBlob}
       ></img>
       <img className="absolute left-[-150px]" src={LeftBlob}></img>
 
-      <div className="flex justify-center items-center flex-col my-4">
-        <p className="text-6xl leading-[85px] font-bold text-transparent inline-block bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] bg-clip-text">
+      <div className="md:flex justify-center items-center p flex-col my-4">
+        <p className="text-6xl w-[90%] sm:w-full md:text-center leading-[85px] font-bold text-transparent inline-block bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] bg-clip-text">
           Looking for an internship?
         </p>
-        <p className="text-2xl px-4">
+        <p className="text-2xl w-[90%] sm:w-full md:text-center sm:px-4">
           Upload your CV and make a positive impact on peoples life by joining
           our internship program!
         </p>

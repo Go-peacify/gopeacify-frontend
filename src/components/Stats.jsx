@@ -5,7 +5,8 @@ export const Stats = () => {
   return (
     <div className="items-center">
       <div className="flex p-10 justify-center">
-        <div className="flex flex-row ">
+      {/* flex flex-wrap  */}
+        <div className="grid grid-cols-2 md:grid-cols-4 ">
           <div className="bg-[#52D0C2] h-[187px] w-[270px] mx-5 rounded-3xl  mb-2">
             <p className=" flex flex-col py-8 ">
               <span className="font-semibold text-center text-[#464646] text-[60px]">

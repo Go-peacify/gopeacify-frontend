@@ -7,14 +7,14 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 const Testinomialimg = () => {
   return (
-    <div className="testimonial-bg p-8">
+    <div className="testimonial-bg  md:p-8">
       <div className="flex w-full">
-        <div className="w-1/2">
-          <div className="relative">
+        <div className=" w-10 md:w-1/2">
+          <div className="hidden md:block relative">
             <img className=" pl-[400px] pt-28" src={test1}></img>
             <img className="pl-48" src={test2}></img>
           </div>
-          <div className="flex flex-row ">
+          <div className="hidden md:flex flex-row ">
             <img className="pl-40 pt-10 object-contain" src={test3}></img>
             <img className="pl-20 object-contain" src={linkimg}></img>
             <img className="pl-[109px] object-contain" src={test4}></img>

@@ -11,6 +11,7 @@ import Contact from "../components/Footer/Contact";
 import Testinomial from "../components/Testinomial";
 import Testinomialimg from "../components/Testinomialimg";
 import Appointment from "../components/Appointment";
+import SecureBanner from "../components/SecureBanner";
 // import Health from "../components/Health";
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Hero />
       <Whyus />
       <Issue />
+      {/* <SecureBanner /> */}
       {/* <Health /> */}
       <Intern />
       <Appointment />
