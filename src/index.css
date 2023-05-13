@@ -112,3 +112,14 @@ button:focus-visible {
         background-color: #f9f9f9;
     }
 }
+
+.btn-sm{
+    @apply px-6 py-2 bg-[#008080] rounded-full text-white hover:bg-[#2FC4B1] transition-all
+}
+.btn-lg{
+    @apply px-10 py-3 bg-[#008080] rounded-full text-white md:text-lg hover:bg-[#2FC4B1] transition-all
+}
+.btn-sm-light{
+    @apply px-7 py-2 bg-[#B3F0E8] rounded-full font-medium md:text-xl lg:text-lg md:py-2.5
+}
+

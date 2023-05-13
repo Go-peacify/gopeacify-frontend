@@ -16,6 +16,11 @@ export default {
         banner: "rgba(40, 156, 144, 0.17)",
         footcol: "#A1FFF5",
         btn: "#289C90",
+        100: '#B3F0E8',
+        200: '#8EE5DC',
+        300: '#2FC4B1',
+        400: '#289C8F',
+        500: '#008080',
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -28,7 +33,8 @@ export default {
       "ms":"860px",
       "lg": "1024px",
       "xl": "1280px",
-      "2xl": "1536px"
+      "2xl": "1536px",
+      '3xl': '1720px',
     },
   },
   plugins: [],

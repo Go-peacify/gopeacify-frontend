@@ -23,7 +23,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div className='w-[90%] mx-auto flex justify-between items-center border-b-2 pb-2'>
+            <div className='w-[90%] mx-auto flex-wrap flex xl:justify-between justify-center gap-2 items-center border-b-2 pb-2'>
                 <p>All Categories</p>
                 <p>Mental Peace</p>
                 <p>Social life</p>
