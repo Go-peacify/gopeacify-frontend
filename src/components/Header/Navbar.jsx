@@ -17,7 +17,7 @@ const Navbar = () => {
     setShowDropdown(!showDropdown);
   }
   return (
-    <nav className="flex px-12 justify-between ">
+    <nav className="flex px-12 justify-between shadow-md">
       <div className="">
         <Link to="/" className="no-underline">
           <img src={logo} className="w-full h-16" />
@@ -60,19 +60,28 @@ const Navbar = () => {
                 OUR SERVICES
               </p>
               <div className="py-1">
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  >
                   Therapy
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={() => handleClick("musicalTherapy")}>
+                  Musical Therapy
+                </a>
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                 >
                   Psychiatry
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  >
                   Couples Therapy
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  >
                   Self-Care
                 </a>
-                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900">
+                <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  >
                   Community
                 </a>
               </div>
@@ -210,7 +219,7 @@ const Navbar = () => {
         </p>
 
         <div className="">
-          <div
+          <Link to="/patientsignin"><div
             onClick={handleButtonClick}
             className="
             bg-gradient-to-r from-[#00F5A0] to-[#00D9F5]
@@ -232,7 +241,8 @@ const Navbar = () => {
             sign up
             <span className="hidden">Hidden Text</span>
           </div>
-          {showDropdown && (
+          </Link>
+          {/* {showDropdown && (
             <div className=" absolute w-[140px] border shadow-lg bg-transparent mt-2 rounded-lg dropdown-content">
               <ul className=" text-sm text-gray-700 dark:text-gray-200">
                 <li>
@@ -251,7 +261,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-          )}
+          )} */}
         </div>
       </div>
 
