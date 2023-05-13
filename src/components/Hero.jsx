@@ -10,25 +10,25 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="grid grid-cols-2 bg-bghero dark:bg-bghero mx-12 rounded-3xl min-h-[700px] pt-20 relative"
+      className="md:grid w-auto md:grid-cols-2 bg-bghero dark:bg-bghero mx-0  md:mx-12 rounded-3xl min-h-[700px] px-5 py-10 md:pt-20 relative"
     >
-      <div>
+      <div className="h-0 md:h-auto">
         <img
-          className="absolute bottom-[-120px] h-[700px] scale-110"
+          className="hidden md:block absolute bottom-[-120px] h-[700px] scale-110"
           src={Landing}
         />
       </div>
-      <div className="p-24">
+      <div className="md:p-24">
         <p className="text-8xl font-bold leading-[122px] mb-3 text-transparent inline-block bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] bg-clip-text">
           Peacify
         </p>
-        <p className="flex text-5xl">
-          Humans for human{" "}
-          <span>
-            <img src={Heart} alt="Heart" />
+        <p className="flex text-5xl w-[280px] sm:w-full">
+          Humans for human{" "} <img src={Heart} alt="Heart" className="j" />
+          <span className="">
+            
           </span>
         </p>
-        <p className="text-[1.1rem] mt-6 text-justify">
+        <p className="text-[1.1rem] mt-6 text-justify text-2xl sm:w-full w-[390px] ">
           We fuse the powers of self-nurturing, expert guidance, and social
           connectivity to offer you a mental health care experience that is
           second to none. Tailoring our approach to your needs ensures you
@@ -41,6 +41,8 @@ const Hero = () => {
           </button>
         </div>
       </div>
+      
+      
     </section>
   );
 };

@@ -3,8 +3,8 @@ import { contact } from "../../assets";
 
 const Contact = () => {
   return (
-    <section className="py-4 pt-14 pb-14 text-white">
-      <div className="grid max-w-6xl grid-cols-1  rounded-3xl mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-[#B3F0E8]">
+    <section className="py-4 pt-14 pb-14 px-5 md:px-0 text-white">
+      <div className=" px-5 md:px-0 grid max-w-6xl grid-cols-1  rounded-3xl mx-auto lg:px-8 md:grid-cols-2 md:divide-x bg-[#B3F0E8]">
         <div className="py-6 md:py-0 md:px-6">
           <h3 className="font-medium opacity-80 text-[#464646] mt-14">Need a doctor consulting?</h3>
           <h1 className="text-4xl font-bold text-[#464646] opacity-90">Request a call back Today Now</h1>

@@ -20,7 +20,7 @@ const Whyus = () => {
   return (
     <>
       <div className="grid grid-cols-2 my-16">
-        <div className="relative grid grid-cols-2 gap-4 my-32">
+        <div className=" hidden relative md:grid md:grid-cols-2 gap-4 my-32">
         <img className="absolute left-[60px] top-[-150px]" src={Leaf5} alt="" />
         <img className="absolute top-[220px] right-[-60px]" src={Leaf6} alt="" />
         <div className="col-start-1 grid-rows-3 absolute left-[170px]">
@@ -33,14 +33,14 @@ const Whyus = () => {
           </div>
         </div>
 
-        <div className=" my-5 flex-col justify-end p-8">
-          <div className="flex justify-center flex-row gap-2">
+        <div className=" md:my-5 flex-col justify-end px-5 md:p-8">
+          <div className="w-[600px] md:flex md:justify-center flex-row gap-2">
             <h2 className="text-6xl leading-[90px] font-bold  text-transparent inline-block bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] bg-clip-text">Why Choose us? </h2>
           </div>
-          <p className="ml-[-50px] text-center text-[#818181] text-[1.1rem] leading-[21px] font-normal mb-10">
+          <p className="md:ml-[-50px] md:text-center text-[#818181] text-[1.1rem] leading-[21px] font-normal mb-10 md:w-full w-[390px]">
             Our platform is built by psychiatrists, psychologists and mental health experts with immense global experience.
           </p>
-          <div className="cards px-6">
+          <div className="cards md:w-full w-[450px] md:px-6">
             <Whyuscard
               style={{marginRight : "18px"}}
               image={Experience}
