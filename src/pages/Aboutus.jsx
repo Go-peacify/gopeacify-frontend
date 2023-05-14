@@ -13,7 +13,7 @@ const Aboutus = () => {
         </div>
 
         {/*images*/}
-        <div className="flex flex-col md:flex-row justify-center gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <img src={img1} className="max-w-xs" />
           <div className="flex flex-col gap-4">
             <img src={img2} className="max-w-xs" />
@@ -58,7 +58,7 @@ const Aboutus = () => {
         </div>
 
         {/* */}
-        <span className="my-10 md:mx-60 text-4xl  md:text-6xl font-bold text-transparent inline-block bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] bg-clip-text">
+        <span className="my-10 md:mx-60 text-center xl:text-left text-4xl  md:text-6xl font-bold text-transparent inline-block bg-gradient-to-r from-[#00F5A0] to-[#00D9F5] bg-clip-text">
           Our Values
         </span>
 
