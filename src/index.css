@@ -123,3 +123,7 @@ button:focus-visible {
     @apply px-7 py-2 bg-[#B3F0E8] rounded-full font-medium md:text-xl lg:text-lg md:py-2.5
 }
 
+.menu-link{ 
+    @apply  sm:text-lg xl:text-xl inline-block py-2
+}
+
